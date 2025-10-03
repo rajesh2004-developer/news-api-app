@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# News App
+
+A simple news aggregator app built with Next.js (or React) that fetches and displays news using a News API.
+
+**Live Demo:** https://news-api-app-amber.vercel.app/
+
+---
+
+## 🧩 Table of Contents
+
+- [About](#about)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Environment Variables](#environment-variables)
+  - [Running the App](#running-the-app)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Customizations](#customizations)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## About
+
+This is a news app that allows users to browse up-to-date news articles grouped by categories and countries. It’s built to provide a clean, fast, and responsive UI so users can stay informed no matter their device.
+
+---
+
+## Features
+
+- Fetch and display top news headlines
+- Filter news by category (e.g. Technology, Sports, Business)
+- Filter news by country
+- Responsive design for mobile and desktop
+- Sidebar or toggle menu navigation
+- Loading and error handling
+- Clean UI / UX
+
+---
+
+## Tech Stack
+
+- Frontend: Next.js / React
+- Styling: CSS, Tailwind CSS, or styled-components (whichever you used)
+- State / Data Fetching: React hooks, SWR / React Query / plain `fetch`
+- Hosting / Deployment: Vercel
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js (v14+ recommended)
+- npm or yarn
+
+### Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/yourusername/news-api-app-amber.git
+cd news-api-app-amber
+npm install
